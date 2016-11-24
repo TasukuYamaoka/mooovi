@@ -684,3 +684,48 @@ Started GET "/" for 127.0.0.1 at 2014-11-01 22:32:03 +0900
 Processing by TopController#index as HTML
   Rendered top/index.html.erb within layouts/review_site (0.0ms)
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-24 17:13:46 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (1.7ms)
+Completed 200 OK in 2743ms (Views: 2734.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/ranking.css?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/review_site.css?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/ranking.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/reviews.js?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/reviews.css?body=1" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/assets/bambi-1.0.0.ttf?20140712" for ::1 at 2016-11-24 17:13:49 +0900
+
+
+Started GET "/products/search" for ::1 at 2016-11-24 17:14:47 +0900
+Processing by ProductsController#search as HTML
+  Rendered products/search.html.erb within layouts/review_site (1.7ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
