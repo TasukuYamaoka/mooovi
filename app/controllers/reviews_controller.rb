@@ -5,11 +5,14 @@ class ReviewsController < RankingController
   end
 
   def create
-    # Review.create(create_params)
-    # トップページにリダイレクトする
+    # binding.pry
+    Review.create(create_params)
+    redirect_to controller: :products, action: :index
   end
 
   private
   def create_params
+    params.require(:review).permit(:nickname, :rate, :review).merge(product_id: params[:product_id])
   end
+
 end
